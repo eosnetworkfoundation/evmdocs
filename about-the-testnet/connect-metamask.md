@@ -2,8 +2,6 @@
 title: Connect Metamask
 ---
 
-# Connect Metamask
-
 To connect Metamask to Trust EVM follow below steps to add the Trust EVM network to your Metamask wallet:
 
 1. Open the Metamask wallet and click on the network in the top center
