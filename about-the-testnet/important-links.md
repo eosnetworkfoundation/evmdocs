@@ -1,35 +1,19 @@
 ---
-description: All the Links you are looking for
+title: Resources
 ---
 
-# Important Links
+# Resources
 
 ## Endpoints
 
-This is a list which will be kept up to date. For testnet you can also reference the configuration in [Chainlist.org](https://chainlist.org/).
-
 * Main RPC URL: [https://api.testnet-dev.trust.one](https://api.testnet-dev.trust.one)
-*   Mirrors:
 
-    * &#x20;https://TBD
+For Trust EVM testnet you can use the configuration listed at [Chainlist.org](https://chainlist.org/).
 
+## Blockchain Explorer
 
-
-## Block Explorer
-
-* [Blocksout](https://trustscan.one/)
-
-
+* [Blockscout](https://trustscan.one/)
 
 ## Faucet
 
 * EVM Token: [`https://faucet.testnet-dev.trust.one/`](https://faucet.testnet-dev.trust.one/)``
-
-
-
-
-
-
-
-
-
