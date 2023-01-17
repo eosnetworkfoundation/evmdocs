@@ -56,7 +56,7 @@ To connect the Remix IDE to Trust network:
 2. Click the `ENVIRONMENT` drop-down list
 3. Select from the `Injected Provider - Metamask` option
 
-/
+\
 ![remix deploy and run trx](./resources/remix_deploy_run_trx_panel.png)
 
 Right after you successfully selected `Injected Provider - Metamask` option from the drop-down list the `ACCOUNT` field gets populated with your wallet address. Make note of it and make sure it is indeed the same address as your Metamask wallet.
@@ -70,14 +70,14 @@ Right after you successfully selected `Injected Provider - Metamask` option from
 
 ## Execute Actions
 
-As soon as the smart contract is deployed to the blockchain, that is, the transaction is confirmed on the blockchain you can start interacting with the smart contract actions using the Remix `DEPLOY & RUN TRANSACTIONS` panel.
+As soon as the smart contract is deployed to the blockchain, that is, the transaction is confirmed on the blockchain, you can interact with the smart contract actions through the Remix `DEPLOY & RUN TRANSACTIONS` panel.
 
 At the bottom of the panel you can see the `Deployed Contracts` section which lists all deployed smart contracts in this Remix session to the current address. You should see one smart contract.
 
-/
+\
 ![remix deployed contracts panel](./resources/remix_deployed_contracts_panel.png)
 
-TO DO:
+TO DO: step by step how to send actions + params to the deployed smart contract
 
 
 ## Verify The Smart Contract
