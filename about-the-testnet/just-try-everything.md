@@ -11,7 +11,7 @@ The Trust Testnet is currently under developer preview phase. There's still a lo
 
 Thanks to the high API compatibility of the Trust, most popular wallets and IDEs should work on Trust EVM seamlessly.&#x20;
 
-Necessary information for connecting to the network can be found at [connect-metamask.md](connect-metamask.md "mention") and/or [important-links.md](important-links.md "mention").
+Necessary information for connecting to the network can be found at [connect-metamask.md](connect-metamask.md "mention") and/or [resources.md](resources.md "mention").
 
 
 

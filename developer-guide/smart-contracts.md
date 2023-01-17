@@ -31,3 +31,7 @@ module.exports = {
 };
 
 ```
+
+## Remix
+
+To learn how to develop a smart contracts for Trust network please consult the [Develop Trust Smart Contracts With Remix](./develop-trust-smart-contracts-with-remix.md) tutorial.
