@@ -85,7 +85,7 @@ At the bottom of the panel you can see the `Deployed Contracts` section which li
 \
 ![remix deployed contracts panel](./resources/remix_deployed_contracts_panel.png)
 
-To send an instance of the `store` action to your smart contract you first set the value for its `num` parameter which is of type `uint256` and then click the `store` button. If the action has multiple params you have to expand the list of the parameters to see them all and provide values for each of them before clicking the `transact` button.
+To send an instance of the `store` action to your smart contract you first set the value for its `num` parameter which is of type `uint256` and then click the `store` button. If the action has multiple params you have to expand the list of the parameters to see them all, provide values for each of them and then click the `transact` button.
 
 \
 ![remix deployed contracts panel 2](./resources/remix_deployed_contracts_panel_2.png)
@@ -100,7 +100,7 @@ Wait for the transaction to be confirmed on the blockchain and note on the Remix
 Search for the transaction hash on the [blockchain explorer](https://trustscan.one/). Note that the input parameter is not decoded. In order to see it decoded you must verify your smart contract on chain.
 
 \
-![remix on chain verify](./resources/remix_on_chain_verify.png)
+![remix onchain encoded data](./resources/remix_onchain_encoded_data.png)
 
 
 ## Verify The Smart Contract
