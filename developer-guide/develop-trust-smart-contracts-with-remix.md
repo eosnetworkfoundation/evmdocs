@@ -55,7 +55,7 @@ You also must ensure you have EVM tokens available in your wallet to be able to 
 
 To connect the Remix IDE to Trust network:
 
-1. Click the `Deploy & run transactions` button on the left side vertical menu to swtich to `Deploy & run transactions` panel
+1. Click the `Deploy & run transactions` button on the left side vertical menu to switch to `Deploy & run transactions` panel
 2. Click the `ENVIRONMENT` drop-down list
 3. Select from the `Injected Provider - Metamask` option
 
