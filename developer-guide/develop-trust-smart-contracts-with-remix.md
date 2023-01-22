@@ -10,7 +10,7 @@ The Remix IDE comes in 3 flavors, the web application, the desktop application, 
 
 ## Start A Workspace
 
-Navigate to the [Remix IDE web version](https://remix.ethereum.org/). One of the first thing you notice is the file explorer panel on the left side of the screen. You can see that the Remix IDE already created a default workspace with three folders `Contracts`, `Scripts` and `Tests` and a `README.txt` file.
+Navigate to the [Remix IDE web version](https://remix.ethereum.org/). One of the first thing you notice is the `FILE EXPLORER` panel on the left side of the screen. You can see that the Remix IDE already created a default workspace with three folders `Contracts`, `Scripts` and `Tests` and a `README.txt` file.
 \
 ![remix file explorer](./resources/remix_file_explorer.png)
 
@@ -32,8 +32,9 @@ To compile the `Storage` sample smart contract, right click on the `1_Storage.so
 \
 ![remix compile](./resources/remix_compile.png)
 
-The compilation for this smart contract is instant and if successful you can notice a green mark on the solidity compiler switch button on the right side of screen. Click on that button to navigate the Remix IDE `Solidity Compiler` panel.
+The compilation for this smart contract is instant and if successful you can notice a green mark on the solidity compiler switch button on the right side of screen. Click on that button to navigate to the `SOLIDITY COMPILER` panel.
 
+#### Solidity Compiler Panel
 \
 ![remix compile panel](./resources/remix_compile_panel.png)
 
@@ -102,7 +103,22 @@ Search for the transaction hash on the [blockchain explorer](https://trustscan.o
 \
 ![remix onchain encoded data](./resources/remix_onchain_encoded_data.png)
 
-
 ## Verify The Smart Contract
 
-To verify the smart contract follow the steps outline in the [how to verify a smart contract](./how_to_verify_a_smart_contract.md) document.
+To verify the smart contract you need to identify four properties of the smart contract and then follow the steps outline in the [how to verify a smart contract](./how_to_verify_a_smart_contract.md) document.
+
+To verify your smart contract you need to know the following:
+
+- The smart contract address; you can find the smart contract address in the [`DEPLOY & RUN TRANSACTIONS`](#execute-actions) panel.
+
+- The compiler version used to compile the smart contract; you can find the compiler version on the [`SOLIDITY COMPILER`](#solidity-compiler-panel) panel.
+
+- The EVM version for which the WASM was compiled for; to find the version go to the [`SOLIDITY COMPILER`](#solidity-compiler-panel) panel, click on the `Compilation Details` button at the bottom of the panel, and then navigate to the `METADATA -> Settings -> evmVersion`.
+\
+![remix compilation details](./resources/remix_compilation_details.png)
+
+- The solidity flattened sources file for your smart contract; to produce the flattened source file navigate to the [`FILE EXPLORER`](#start-a-workspace) panel, right click on the `1_Storage.sol` file and select from the the `Flatten` option from the opened floating menu.
+\
+![remix compilation details](./resources/remix_compilation_details.png)
+
+With all the above information you can now follow the steps outline in the [how to verify a smart contract](./how_to_verify_a_smart_contract.md) document to get the job done.
