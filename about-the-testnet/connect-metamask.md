@@ -16,11 +16,11 @@ To connect Metamask to Trust EVM follow the steps below to add the Trust EVM net
 
 The Trust Network Testnet Preview connection details follow:
 
-* `Network Name`: Trust Network Testnet Preview
-* `Chain ID`: 15555
-* `New RPC URL`: https://api.testnet-dev.trust.one
+* `Network Name`: Trust Network Testnet
+* `Chain ID`: 15556
+* `New RPC URL`: https://api-testnet.trust.one/
 * `Currency Symbol`: EVM
-* `Block Explorer URL (Optional)`: https://trustscan.one
+* `Block Explorer URL (Optional)`: https://explorer-testnet.trust.one/
 
 Alternative endpoints can be found at [resources.md](resources.md)
 
