@@ -8,7 +8,7 @@
 
 * [Just try everything!](about-the-testnet/just-try-everything.md)
 * [Connect Metamask](about-the-testnet/connect-metamask.md)
-* [Important Links](about-the-testnet/important-links.md)
+* [Resources](about-the-testnet/resources.md)
 * [Test DEX](about-the-testnet/test-dex.md)
 * [Release notes](about-the-testnet/release-notes.md)
 * [Known issues](about-the-testnet/known-issues.md)

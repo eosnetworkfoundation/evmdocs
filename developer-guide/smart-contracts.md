@@ -4,7 +4,7 @@
 
 Currently the Trust is using a standard EVM implementation. Therefore all existing solidity compilers targeting standard EVM environment should work.&#x20;
 
-There might be some limitations in the smart contracts. Please check [evm-compatibility.md](../understanding-trust/compatibility/evm-compatibility.md "mention") for more information.&#x20;
+There might be some limitations in the smart contracts. Please check [evm-compatibility.md](../understanding-trust/compatibility/evm-compatibility.md) for more information.&#x20;
 
 In the future, we might develop add-ons to the VM of the Trust EVM to support more features. In that case, one may need to use our SDK for development. We will update this guild if that happens.
 
@@ -31,3 +31,7 @@ module.exports = {
 };
 
 ```
+
+## Remix
+
+To learn how to develop a smart contract for Trust network please consult the [Develop Trust Smart Contracts With Remix](./develop-trust-smart-contracts-with-remix.md) tutorial.
