@@ -14,9 +14,9 @@ The Trust EVM Testnet is currently in the phase of  **Developer Preview version*
 
 Trust EVM should work with most existing wallets and development tools. Simply configure them to connect to the Trust EVM and you can start playing with smart contracts!
 
-Please check  [resources.md](about-the-testnet/resources.md "mention") for information about the endpoints.
+Please check  [resources.md](about-the-testnet/resources.md) for information about the endpoints.
 
-Join the developer community to report bugs and for more technical supports:
+Join the developer community to report bugs and for more technical support:
 
 **Telegram of Developer Community**: [`https://t.me/TrustEVMDev`](https://t.me/TrustEVMDev)``
 
@@ -24,7 +24,7 @@ Join the developer community to report bugs and for more technical supports:
 
 ## For Users
 
-If you want to experience the Testnet as a regular user,  please follow the guide at [just-try-everything.md](about-the-testnet/just-try-everything.md "mention")
+If you want to experience the Testnet as a regular user,  please follow the guide at [just-try-everything.md](about-the-testnet/just-try-everything.md)
 
 ## For Business Cooperation
 

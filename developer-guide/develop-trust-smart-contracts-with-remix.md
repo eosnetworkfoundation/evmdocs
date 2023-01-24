@@ -4,13 +4,20 @@ title: Develop Trust Smart Contracts With Remix
 
 ## Remix IDE
 
-Remix IDE is a popular integrated development environment, which can be used throughout the whole process of smart contract development. It is intuitive thus very easy to use. Remix can be used by any developer with any level of experience. This document outlines the main steps you have to go through to develop a smart contract for the Trust network, written with Solidity programming language. The document does not go into the full details, for that please consult the official Remix documentation which can be found at [remix-ide.readthedocs.io](https://remix-ide.readthedocs.io/en/latest/). However, the main steps and the important settings needed to connect to Trust network are presented below.
+Remix IDE is a popular integrated development environment for smart contract development written in Solidity programming language. It is intuitive and very easy to use. Remix can be used by any developer with any level of experience. This document outlines the main steps to develop a smart contract for the Trust network, written in Solidity. The official Remix documentation can be found at [remix-ide.readthedocs.io](https://remix-ide.readthedocs.io/en/latest/).
 
-The Remix IDE comes in 3 flavors, the web application, the desktop application, and as a VSCode extension. This tutorial uses the Remix web app IDE. From here onwards the `Remix IDE` refers to the Remix web application integrated development environment.
+The Remix IDE comes in three flavors, the web application, the desktop application, and a VSCode extension. This tutorial uses the Remix web IDE. From here onwards the `Remix IDE` refers to the Remix web application integrated development environment.
 
 ## Start A Workspace
 
-Navigate to the [Remix IDE web version](https://remix.ethereum.org/). One of the first thing you notice is the `FILE EXPLORER` panel on the left side of the screen. You can see that the Remix IDE already created a default workspace with three folders `Contracts`, `Scripts` and `Tests` and a `README.txt` file.
+Navigate to the [Remix IDE web version](https://remix.ethereum.org/). One of the first thing you notice is the `FILE EXPLORER` panel on the left side of the screen. You can see that the Remix IDE already created a default workspace with three folders:
+
+- `Contracts`, 
+- `Scripts`,
+- `Tests` 
+
+and a `README.txt` file.
+
 \
 ![remix file explorer](./resources/remix_file_explorer.png)
 
@@ -18,7 +25,7 @@ You can read the `README.txt` file for details about what each folder purpose is
 
 ## Write A Smart Contract
 
-Now you can create a new solidity file where to write the smart contract. Conventionally a solidity file has the `.sol` extension. Right-click on the `contracts` folder and select `New File` menu option, chose a name for your file, and then write the solidity code, which defines the smart contract, in the newly created file. As an alternative you can use one of the samples solidity files provided by the Remix IDE.
+Next create a new solidity file where to code the smart contract. Conventionally, a solidity file has the `.sol` extension. Right-click on the `contracts` folder and select `New File` menu option, chose a name for your file, and then write the solidity code, which defines the smart contract. As an alternative you can use one of the samples solidity files provided by the Remix IDE.
 
 \
 ![remix new file](./resources/remix_new_file.png)
@@ -32,21 +39,21 @@ To compile the `Storage` sample smart contract, right click on the `1_Storage.so
 \
 ![remix compile](./resources/remix_compile.png)
 
-The compilation for this smart contract is instant and if successful you can notice a green mark on the solidity compiler switch button on the right side of screen. Click on that button to navigate to the `SOLIDITY COMPILER` panel.
+The compilation for this smart contract is instant and, if successful, you will notice a green mark on the solidity compiler switch button on the right side of screen. Click on that button to open the `SOLIDITY COMPILER` panel.
 
 #### Solidity Compiler Panel
 \
 ![remix compile panel](./resources/remix_compile_panel.png)
 
- If the compilation fails you can notice a red icon instead of the green one and if you click on it you can find details about the compilation errors on the `Solidity Compiler` panel.
+ If the compilation fails you will notice a red icon instead of the green one. If you click on it you will find details about the compilation errors on the `Solidity Compiler` panel.
 
- You will return to this panel later, after you deployed the smart contract, and when you will want to [verify](#verify-the-smart-contract) the deployed smart contract.
+ You will return to this panel later, after you deploy the smart contract, and if you want to [verify](#verify-the-smart-contract) the deployed smart contract.
 
 ## Connect To Trust
 
 ### Connect Metamask Wallet
 
-To connect the Remix IDE to the Trust network you must first [connect your metamask wallet](../about-the-testnet/connect-metamask.md) to the Trust network. You can connect ot the Trust main network or you can connect to any of the available Trust test networks. For information about available Trust networks please consult the [resources page](../about-the-testnet/resources.md).
+To connect the Remix IDE to the Trust network you must first [connect your metamask wallet](../about-the-testnet/connect-metamask.md) to the Trust network. You can connect to the Trust main network or you can connect to any of the available Trust test networks. For information about available Trust networks please consult the [resources page](../about-the-testnet/resources.md).
 
 ### Have Enough EMV Tokens
 
@@ -54,22 +61,22 @@ You also must ensure you have EVM tokens available in your wallet to be able to 
 
 ### Connect the Remix IDE To Trust
 
-To connect the Remix IDE to Trust network:
+To connect the Remix IDE to the Trust network:
 
-1. Click the `Deploy & run transactions` button on the left side vertical menu to switch to `Deploy & run transactions` panel
-2. Click the `ENVIRONMENT` drop-down list
-3. Select from the `Injected Provider - Metamask` option
+1. Click the `Deploy & run transactions` button on the left side vertical menu to switch to the `Deploy & run transactions` panel.
+2. Click the `ENVIRONMENT` drop-down list.
+3. Select from the `Injected Provider - Metamask` option.
 
 \
 ![remix deploy and run trx](./resources/remix_deploy_run_trx_panel.png)
 
-Right after you successfully selected `Injected Provider - Metamask` option from the drop-down list the `ACCOUNT` field gets populated with your wallet address. Make note of it and make sure it is indeed the same address as your Metamask wallet.
+Right after you successfully selected `Injected Provider - Metamask` option from the drop-down list, the `ACCOUNT` field gets populated with your wallet address. Make note of it and make sure it is indeed the same address as your Metamask wallet.
 
 ## Deploy The Smart Contract
 
-1. Make sure the `CONTRACT (Compiled by Remix)` field shows the value `Storage/contracts - 1_Storage.sol`. If not click on the drop-down list and select it.
+1. Make sure the `CONTRACT (Compiled by Remix)` field shows the value `Storage/contracts - 1_Storage.sol`. If not, click on the drop-down list and select it.
 2. Click Deploy button
-3. Confirm the transaction on Metamask wallet
+3. Confirm the transaction on the Metamask wallet
 4. Wait for the transaction to complete on the blockchain
 
 When the transaction is done you will see details in the bottom panel. Notice the status of the transaction and the transaction hash. You can open the [blockchain explorer](https://trustscan.one/) and search for the transaction hash to see it on chain.
@@ -81,7 +88,7 @@ When the transaction is done you will see details in the bottom panel. Notice th
 
 As soon as the smart contract is deployed to the blockchain, that is, the transaction is confirmed on the blockchain, you can interact with the smart contract through the Remix `DEPLOY & RUN TRANSACTIONS` panel.
 
-At the bottom of the panel you can see the `Deployed Contracts` section which lists all deployed smart contracts in this Remix session. You should see one smart contract 'STORAGE' followed by the blockchain address where the smart contract was deployed at. Click the small button at the left side of the contract name to expand the panel and see its details. At the top of the details panel you can see the balance of your smart contract address and then below the list of actions your smart contract implements. In this case you can see two actions, the `store` and the `retrieve`.
+At the bottom of the panel you can see the `Deployed Contracts` section which lists all deployed smart contracts in the current Remix session. You should see one smart contract 'STORAGE' followed by the blockchain address where the smart contract was deployed at. Click the small button at the left side of the contract name to expand the panel and see its details. At the top of the details panel you can see the balance of your smart contract address and then below the list of actions your smart contract implements. In this case you can see two actions: `store` and `retrieve`.
 
 \
 ![remix deployed contracts panel](./resources/remix_deployed_contracts_panel.png)
@@ -93,7 +100,7 @@ To send an instance of the `store` action to your smart contract you first set t
 
 The click on the `store` or on the `transact` button opens up the Metamask wallet with the transaction you are about to send to the blockchain. This transaction packs the `store` action with the parameter you typed. Go ahead and click on the `Confirm` Metamask button to sign the transaction and send it to the blockchain.
 
-Wait for the transaction to be confirmed on the blockchain and note on the Remix log panel, on the bottom of the screen, the status of the transaction, the transaction hash and the decoded input parameter value.
+Wait for the transaction to be confirmed on the blockchain and note on the Remix log panel, on the bottom of the screen, the status of the transaction, the transaction hash, and the decoded input parameter value.
 
 \
 ![remix log decoded input](./resources/remix_log_decoded_input.png)
@@ -105,13 +112,13 @@ Search for the transaction hash on the [blockchain explorer](https://trustscan.o
 
 ## Verify The Smart Contract
 
-To verify the smart contract you need to identify four properties of the smart contract and then follow the steps outline in the [how to verify a smart contract](./how_to_verify_a_smart_contract.md) document.
+To verify the smart contract you need to identify four properties of the smart contract and then follow the steps outlined in the [how to verify a smart contract](./how_to_verify_a_smart_contract.md) document.
 
 To verify your smart contract you need to know the following:
 
-- The smart contract address; you can find the smart contract address in the [`DEPLOY & RUN TRANSACTIONS`](#execute-actions) panel.
+- The smart contract address; you will find the smart contract address in the [`DEPLOY & RUN TRANSACTIONS`](#execute-actions) panel.
 
-- The compiler version used to compile the smart contract; you can find the compiler version on the [`SOLIDITY COMPILER`](#solidity-compiler-panel) panel.
+- The compiler version used to compile the smart contract; you will find the compiler version on the [`SOLIDITY COMPILER`](#solidity-compiler-panel) panel.
 
 - The EVM version for which the WASM was compiled for; to find the version go to the [`SOLIDITY COMPILER`](#solidity-compiler-panel) panel, click on the `Compilation Details` button at the bottom of the panel, and then navigate to the `METADATA -> Settings -> evmVersion`.
 \

@@ -6,9 +6,11 @@ This document shows the steps you need to follow to verify a smart contract thro
 
 ## Prerequisites
 
+You should have the following:
+
 1. The smart contract address, let us assume it is `SMART_CONTRACT_ADDRESS`
 2. The compiler version used to compile the smart contract, let us assume it is `COMPILER_VERSION`
-3. The EVM version for which the WASM was compiled for, let us assume it is `EVM_VERSION`
+3. The EVM version the WASM was compiled for, let us assume it is `EVM_VERSION`
 4. The solidity flattened source code for your smart contract
 
 ## Start
